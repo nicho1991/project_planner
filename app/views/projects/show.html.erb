@@ -3,6 +3,7 @@
 <%= render @project %>
 
 <div>
+  <%= link_to "Show tasks", project_tasks_path(@project) %> |
   <%= link_to "Edit this project", edit_project_path(@project) %> |
   <%= link_to "Back to projects", projects_path %>
 
